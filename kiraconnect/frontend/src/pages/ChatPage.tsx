@@ -4,7 +4,7 @@ import { Send, MessageCircle, Loader, Circle } from 'lucide-react';
 import { chatAPI, Message, ChatRoom } from '@/api/chat';
 import { useAuthStore } from '@/context/store';
 import { useSocket } from '@/hooks/useSocket';
-import { buildRoomId } from '@/utils/chat';
+
 import { formatDistanceToNow } from 'date-fns';
 
 export default function ChatPage() {
